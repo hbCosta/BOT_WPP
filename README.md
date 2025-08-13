@@ -14,11 +14,12 @@ Um guia rápido para configurar e rodar o BOT para mensagens no WhatsApp
       Using: TRUE
 3. Variáveis de Ambiente
    Crie um arquivo .env na raiz do projeto com:
-SUPABASE_URL=URL_DO_SUPABASE
-SUPABASE_KEY=CHAVE_DO_SUPABASE
-TABLE_NAME=Contatos
-ZAPI_TOKEN=SEU_TOKEN_ZAPI
-ZAPI_INSTANCE_ID=SEU_INSTANCE_ID_ZAPI
+      ```env
+      SUPABASE_URL=URL_DO_SUPABASE
+      SUPABASE_KEY=CHAVE_DO_SUPABASE
+      TABLE_NAME=Contatos
+      ZAPI_TOKEN=SEU_TOKEN_ZAPI
+      ZAPI_INSTANCE_ID=SEU_INSTANCE_ID_ZAPI
 
 4. Rodar
    No terminal, execute:
