@@ -21,6 +21,7 @@ Um guia rápido para configurar e rodar o BOT para mensagens no WhatsApp
       ZAPI_INSTANCE_ID=SEU_INSTANCE_ID_ZAP
 4. Rodar
    No terminal, execute:
-   python src/main.py
+      `python src/main.py`
+
 
 O programa buscará contatos no Supabase e enviará mensagens via Z-API
